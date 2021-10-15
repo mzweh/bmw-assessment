@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1199.98px) {
+  * {
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  * {
+  }
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999520;
+}
+  header .menuWrapper .mainMenu {
+    display: block;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    z-index: 94;
+    transform: translateX(-110%);
+    transition: all 0.6s ease-in;
+  }
+  header .menuWrapper .navMenu {
+    display: block;
+  }
+  header .menuWrapper .navMenu .navItem {
+    /* text-align: 
+center; */
+  }
+
+  header .menuWrapper .navMenu .navItem a {
+    border-bottom: 1px solid #666;
+
+    color: #666;
+
+    font-size: 1.5em;
+  }
+  header .menuWrapper .mainMenu .navItem:first-child a {
+    padding-left: 15px;
+  }
+  header .menuWrapper .mainMenu .navItem.has-dropdown a:before {
+    content: "\f006";
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-family: "bmw";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    /* opacity: .8; */
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+    /* font-size: 120%; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* text-shadow: 1px 1px 1px rgb(127 127 127 / 30%);*/
+  }
+  header .menuWrapper .mainMenu .navItem.has-dropdown ul{
+      position: relative;
+      top: auto;
+  }
+  .navOpen header .menuWrapper .mainMenu {
+    display: block;
+    transform: translateX(0);
+  }
+  header .menuWrapper .logo {
+    max-width: 65px;
+  }
+  header .menuWrapper .hamBurger {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768.98px) {
+}
+@media only screen and (max-width: 768.98px) {
+  * {
+  }
+  .customContainer {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  * {} 
+  .mainBanner .mainSlider .swiper-slide{
+    height: 100vh;
+  }
+
+  .mainBanner .mainSlider .swiper-slide .slideContent {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+  }
+  .modelSlider .swiper-pagination{
+      text-align: center;
+  }
+  .modelSlider .swiper-pagination .swiper-pagination-bullet{
+      min-width: auto;
+  }
+
+  .modelSec .modelSlider .modelItem .modelImg{
+      
+margin-bottom: 15px;
+  }
+
+  .contactForm .btn{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  footer .footerWrapper {
+    justify-content: center;
+  }
+  footer .footerWrapper .exploreSpan {
+    margin-bottom: 15px;
+    margin-right: 0;
+    font-size: 1.2em;
+  }
+  footer .footerWrapper .footerNav {
+    display: block;
+    text-align: center;
+  }
+  footer .copyRight {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  * {
+  }
+}
